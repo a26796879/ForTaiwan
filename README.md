@@ -9,7 +9,7 @@ This repo is for Taiwan!!!!
 
 其中，每個大標題下，類似的新聞內容會被Google偵測到，並放在該大標下的小標
 以下為各小標的Xpath
-'//*[@id="rso"]/div/div[1]/div/div[1]/h3/a'
+'//*[@id="rso"]/div/div[1]/div/div[1]/h3/a' /n
 '//*[@id="rso"]/div/div[1]/div/div[2]/a'
 '//*[@id="rso"]/div/div[1]/div/div[4]/a'
 '//*[@id="rso"]/div/div[1]/div/div[6]/a'
