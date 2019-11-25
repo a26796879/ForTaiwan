@@ -3,6 +3,8 @@ This repo is for Taiwan!!!!
 
 使用Selenium抓取 Google新聞上關鍵字是「基進」、「陳柏惟」的新聞
 並取得標題及連結
+結果將呈現於 https://docs.google.com/spreadsheets/d/1KdW0Yfxq7pX2QDDM7mcNgnL8X8sEDM4E5gE4Vv2vCPo/
+
 
 
 其中，每個大標題下，類似的新聞內容會被Google偵測到，並放在該大標下的小標
