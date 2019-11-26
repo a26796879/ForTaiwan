@@ -14,12 +14,14 @@ options.add_argument('--disable-gpu') # 允許在無GPU的環境下運行，可�
 threads = []
 def for_taiwan(url):
     #開啟google sheets連線
-    gc = pygsheets.authorize(service_file='/Users/kkday/Documents/Python_Codes/python-230518-9f6b02dba966.json')
+    #gc = pygsheets.authorize(service_file='/Users/kkday/Documents/Python_Codes/python-230518-9f6b02dba966.json')
+    gc = pygsheets.authorize(service_file='/Users/peter/Documents/ForTaiwan/python-230518-9f6b02dba966.json')
     wks = gc.open('For Taiwan').sheet1
     wks.clear()
     #取得開始時間
     starttime = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    driver = webdriver.Chrome(chrome_options = options)
+    #driver = webdriver.Chrome(chrome_options = options)
+    driver = webdriver.Chrome('/Users/peter/Documents/ForTaiwan/chromedriver',chrome_options = options)
     driver.get(url)
     #專門抓小標題
     def branch_title(n):
